@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chnei Louhot HaBrit (Shlah) — Torah Shebikhtav, Tetzaveh, Derekh Chayim</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+</style></head><body><div class="wrap">
+<header class="top"><div class="he">שני לוחות הברית</div><h1>Chnei Louhot HaBrit (Shlah) — Torah Shebikhtav, Tetzaveh, Derekh Chayim</h1>
+<div class="sub">Rabbi Yeshayahou Horowitz</div></header>
+<nav class="dafnav"><a href="605.html">&lsaquo; Torah Shebikhtav, Tetzaveh, Torah Ohr (6/6)</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="607.html">Torah Shebikhtav, Ki Tisa, Ner Mitzvah &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary><p>Faire monter une lampe perpetuelle (Exode 27,20). D&#x27;ici une allusion que toujours l&#x27;allumage d&#x27;une lampe ne manquera pas, meme que par nos nombreux peches le Temple a ete detruit, neanmoins c&#x27;est une mitsva d&#x27;allumer une lampe dans la synagogue qui est appelee petit sanctuaire, et elle sera allumee soir et matin a l&#x27;heure de la tefila, car la tefila est a la place du service des sacrifices dans le Temple.</p></details>
+<div class="seg"><div class="he" dir="rtl"><p>להעלות נר תמיד (שמות כז, כ). מכאן רמז שתמיד לא יחסר הדלקת נר, אף שבעונותינו הרבים חרב בית המקדש, מכל מקום מצוה הוא להדליק נר בבית הכנסת שנקרא מקדש מעט ויהיה דולק ערב ובוקר בשעת התפילה, כי התפילה היא במקום עבודת הקרבנות בבית המקדש.</p><p>וכמדומה לי שמצוה זו של הדלקת נר בבית הכנסת בשעת התפילה כתוב ג&quot;כ בספר מנורת המאור:</p></div><div class="fr"><p>Faire monter une lampe perpetuelle (Exode 27,20). D&#x27;ici une allusion que toujours l&#x27;allumage d&#x27;une lampe ne manquera pas, meme que par nos nombreux peches le Temple a ete detruit, neanmoins c&#x27;est une mitsva d&#x27;allumer une lampe dans la synagogue qui est appelee petit sanctuaire, et elle sera allumee soir et matin a l&#x27;heure de la tefila, car la tefila est a la place du service des sacrifices dans le Temple.</p><p>Et il me semble que cette mitsva d&#x27;allumer une lampe dans la synagogue a l&#x27;heure de la tefila est ecrite aussi dans le sefer Menorat HaMaor :</p></div></div><div class="seg"><div class="he" dir="rtl"><p>ועשו בגדי קודש וגו&#x27; (שם כח, ד). הרב ר&#x27; מנחם הבבלי, טעם מצוה זו לפי שהעבודה צריכה כוונה, והלבוש המיוחד לאותה עבודה עוררהו לחשוב בלבו ולצייר בשכלו המכוון.</p><p>וכמו שהלבוש הראוי מכבד הגוף, כך הגוף הראוי מכבד הנפש כי הוא לבושה. זהו שאמר הכתוב בגדי קודש לאהרן אחיך לכבוד ולתפארת, עכ&quot;ל.</p><p>ולפי זה לכבוד רומז למה שכתוב (תהלים נז, ט) עורה כבודי, ולענין הזה קרא ר&#x27; יוחנן (שבת קיג, א) למלבושיו מכבדותי. ומחשבה זו יחשוב האדם כשלובש ערומת הגוף ויעורר להלביש ערומת הנשמה:</p></div><div class="fr"><p>Et ils feront des vetements de saintete etc. (Exode 28,4).</p><p>Le rav Rabbi Menahem haBavli : la raison de cette mitsva, parce que le service a besoin d&#x27;intention, et le vetement particulier a ce service l&#x27;eveille a penser en son coeur et a figurer en son intellect ce qui est vise. Et de meme que le vetement convenable honore le corps, ainsi le corps convenable honore l&#x27;ame, car il est son vetement.</p><p>C&#x27;est ce qu&#x27;a dit le verset : vetements de saintete pour Aharon ton frere, pour l&#x27;honneur et pour la splendeur, jusqu-ici ses paroles. Et selon cela, pour l&#x27;honneur fait allusion a ce qui est ecrit (Psaumes 57,9) : eveille-toi, ma gloire, et pour cette affaire Rabbi Yohanan (Chabbat 113a) a appele ses vetements mes honneurs.</p><p>Et cette pensee, l&#x27;homme la pensera lorsqu&#x27;il vet la nudite du corps, et il s&#x27;eveillera a vetir la nudite de la neshama :</p></div></div><div class="seg"><div class="he" dir="rtl"><p>ולא יזח החושן מעל האפוד (שמות כח, כח). כתב הרב הנ&quot;ל טעם מצוה זו, שכל המעמיד דיין שאינו הגון כאלו נטע אשרה (סנהדרין ז, ב), שהחושן מכפר על משפט המעוקל, ואפוד מכפר על עבודה זרה שנאמר (הושע ג, ד) ואין אפוד ותרפים.</p><p>לרמז זה צריך שיהיה החושן קבוע תמיד על האפוד, לייסר העוברים, דלעולם גבי עבודה זרה כתיב ישמעו ויראו, דכתותי&#x27; מכתת שיעוריה, להכי לא יזח החושן מעל האפודהגה&quot;הלהכי על לבו, שהלב חושב והאפוד לאחריו, כי השליך יראת השם לאחוריו::</p></div><div class="fr"><p>Et le pectoral ne s&#x27;ecartera pas de dessus l&#x27;ephod (Exode 28,28). A ecrit le rav susdit la raison de cette mitsva : quiconque installe un juge qui n&#x27;est pas digne, c&#x27;est comme s&#x27;il avait plante une ashera (arbre d&#x27;idolatrie) (Sanhedrin 7b), car le pectoral expie sur le jugement tordu, et l&#x27;ephod expie sur l&#x27;idolatrie, comme il est dit (Osee 3,4) : et il n&#x27;y a ni ephod ni terafim.</p><p>Pour cette allusion, il faut que le pectoral soit fixe toujours sur l&#x27;ephod, pour chatier ceux qui passent, car toujours au sujet de l&#x27;idolatrie il est ecrit ils entendront et ils craindront (Deuteronome 13,12), car כתותי מכתת שיעוריה (c&#x27;est comme ecrase, sa mesure est ecrasee), c&#x27;est pourquoi le pectoral ne s&#x27;ecartera pas de dessus l&#x27;ephod. Glose : c&#x27;est pourquoi sur son coeur, car le coeur pense et l&#x27;ephod est derriere lui, car il a jete la crainte du Nom derriere lui :</p></div></div><div class="seg"><div class="he" dir="rtl"><p>שלא לקרוע המעיל (שמות כח, לב). כתב הרב הנ&quot;ל טעם המצוה הזו שישים הכהן עוז חומה חזקה לפיו סביב שלא יקרע, אחר שהוא המעתיר על עם קודש לא יצא מפיו דבר מגונה, אחר שהוא הקושר והתופר לא יעשה פירוד וקריעה, דכתיב (משלי כג, כא) וקרעים תלביש נומה השכל.</p><p>ואחר שהגוף לבוש הנפש, והמעיל לבוש הגוף וקשורים זה בזה, ראוי שלבוש הנפש הנקרא חלוקה דרבנן שלא יקרע, עד כאן לשונו. וכל אדם שהוא עבד ה&#x27; הוא ככהן וזכותו עומד לרבים, על כן יקדש את פיו בקדושה יתירה.</p><p>בעזרת אשר היוה כל הוה:</p></div><div class="fr"><p>Ne pas dechirer la robe (Exode 28,32). A ecrit le rav susdit la raison de cette mitsva : que le kohen place une muraille de force solide autour de sa bouche afin qu&#x27;elle ne se dechire pas ; apres qu&#x27;il est celui qui implore pour le peuple saint, qu&#x27;il ne sorte pas de sa bouche une parole honteuse ; apres qu&#x27;il est celui qui lie et qui coud, qu&#x27;il ne fasse pas de separation et de dechirure, comme il est ecrit (Proverbes 23,21) : et des haillons vetiront le sommeil de l&#x27;intellect.</p><p>Et apres que le corps est le vetement de l&#x27;ame, et la robe le vetement du corps, et qu&#x27;ils sont lies l&#x27;un a l&#x27;autre, il convient que le vetement de l&#x27;ame appele tunique des Sages ne se dechire pas, jusqu-ici son langage. Et tout homme qui est serviteur de ה&#x27; est comme un kohen, et son merite se tient pour le grand nombre, c&#x27;est pourquoi il sanctifiera sa bouche d&#x27;une saintete extraordinaire.</p><p>Avec l&#x27;aide de Celui qui a fait etre tout ce qui est :</p></div></div><div class="seg"><div class="he" dir="rtl"><p>נשלם פרשת תצוה ומאלהים מתת בהשלמת שובבי&quot;ם ת&quot;ת</p></div><div class="fr"><p>Achevee la paracha Tetsaveh, et d&#x27;Elokim un don dans l&#x27;achevement des Shovavim TAT</p></div></div>
+<nav class="dafnav"><a href="605.html">&lsaquo; Torah Shebikhtav, Tetzaveh, Torah Ohr (6/6)</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="607.html">Torah Shebikhtav, Ki Tisa, Ner Mitzvah &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button><a class="ask" href="https://notebooklm.google.com/notebook/6dbbbab4-6cd3-43b6-8f58-ee9e5f0ab696" target="_blank" rel="noopener" title="Poser une question sur ces textes (NotebookLM)">💬</a></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+<div id="signaler-err" style="text-align:center;margin:34px 0 10px;padding-top:14px;border-top:1px solid #e7e2d8">
+<a id="signaler-lien" href="#" style="display:inline-block;color:#78716c;text-decoration:none;font-size:.82rem;border:1px solid #e7e2d8;background:#fffdf8;border-radius:999px;padding:5px 14px">&#9993; Signaler une erreur de traduction</a>
+</div>
+<script>(function(){var a=document.getElementById('signaler-lien');if(!a)return;
+var t=(document.title||'').replace(/\s+/g,' ').trim();
+function maj(){var s='';try{s=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
+a.href='mailto:chiourimsba@gmail.com?subject='+encodeURIComponent('Correction — '+t)+'&body='+encodeURIComponent('Page : '+location.href+'\n'+(s?('\nPassage selectionne :\n« '+s+' »\n'):'\nPassage concerne :\n\n')+'\nCorrection proposee :\n\n\n— envoye depuis '+location.hostname);}
+maj();document.addEventListener('selectionchange',maj);a.addEventListener('mouseenter',maj);})();</script>
+<script src="https://chiourimsba.vercel.app/chat.js" defer></script>
+</body></html>

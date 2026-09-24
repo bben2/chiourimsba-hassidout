@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chnei Louhot HaBrit (Shlah) — Toldot Adam, Beit HaMikdash</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+</style></head><body><div class="wrap">
+<header class="top"><div class="he">שני לוחות הברית</div><h1>Chnei Louhot HaBrit (Shlah) — Toldot Adam, Beit HaMikdash</h1>
+<div class="sub">Rabbi Yeshayahou Horowitz</div></header>
+<nav class="dafnav"><a href="020.html">&lsaquo; Toldot Adam, Bayit Ne&#x27;eman (2/2)</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="022.html">Toldot Adam, Bayit Acharon (1/4) &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary><p>Et voici les termes du Ramban (Rabbi Moche ben Nahman, Nahmanide) dans la paracha Ki Tissa (Exode 30,13) : la raison, a mon avis, pour laquelle nos maitres appellent la langue de la Tora &#x27;langue de saintete&#x27; (lechon ha-kodech), c&#x27;est qu&#x27;il en est ainsi parce que les paroles de la Tora, celles de la prophetie et toutes les paroles de saintete ont toutes ete dites dans cette langue. Et voici, c&#x27;est la langue dans laquelle le...</p></details>
+<div class="seg"><div class="he" dir="rtl"><p>וזה לשון הרמב&quot;ן בפרשת כי תשא (ל, יג), הטעם אצלי במה שרבותינו קוראים לשון התורה לשון הקודש, שהוא כך מפני שדברי תורה והנבואה וכל דברי קדושה כולם בלשון ההוא נאמרו, והנה הוא הלשון שהקב&quot;ה יתברך שמו מדבר בו עם נביאיו ועם עדתו, אנכי ולא יהיה לך ושאר דברות התורה והנבואה, וכן נקרא בשמותיו הקדושים אל אלקים צבאות ושדי ויו&quot;ד ה&quot;א והשם הגדול המיוחד, ובו ברא עולמו וקרא שמות שמים וארץ וכל אשר בם, ומלאכיו וכל צבאיו לכולם בשם יקרא, מיכאל וגבריאל בלשון ההוא, ובו קרא שמות לקדושים אשר בארץ אברהם יצחק ושלמה וזולתם. והרב אמר במורה נבוכים (ח&quot;ג פ&quot;ח), אל תחשב שנקרא לשונינו לשון הקודש לגאותינו או לטעותינו, אבל הוא כי זאת הלשון קדושה לא ימצאו בה שמות לאבר הבעילה בזכר או בנקבה, ולא לטפה ולשתן ולצואה, רק בכינוי.</p><p>ואל יטעה אותך שגל, כי היא האשה המזומנת למשגל, ואמרו (דברים כח, ל) ישגלנה על פי מה שנכתב עליו, ופירושו יקח אשה לפלגש:</p></div><div class="fr"><p>Et voici les termes du Ramban (Rabbi Moche ben Nahman, Nahmanide) dans la paracha Ki Tissa (Exode 30,13) : la raison, a mon avis, pour laquelle nos maitres appellent la langue de la Tora &#x27;langue de saintete&#x27; (lechon ha-kodech), c&#x27;est qu&#x27;il en est ainsi parce que les paroles de la Tora, celles de la prophetie et toutes les paroles de saintete ont toutes ete dites dans cette langue. Et voici, c&#x27;est la langue dans laquelle le Saint beni soit-Il, que Son Nom soit beni, parle avec Ses prophetes et avec Sa communaute : &#x27;Je suis&#x27; et &#x27;Tu n&#x27;auras pas&#x27; et le reste des paroles de la Tora et de la prophetie (Exode 20,2-3).</p><p>De meme, Il est appele par Ses Noms saints : El, Elokim, Tsevaot et Chaddai, et Yo-d He-a (les lettres you-d et he, premieres lettres du Nom), et le grand Nom unique. Et c&#x27;est par elle qu&#x27;Il a cree Son monde, et qu&#x27;Il a donne leurs noms au ciel et a la terre et a tout ce qui s&#x27;y trouve ; et Ses anges et toutes Ses armees, Il les appelle tous par un nom, Mikhael et Gavriel, dans cette langue ; et c&#x27;est par elle qu&#x27;Il a donne des noms aux saints qui sont sur la terre : Avraham, Yitshak, Chelomo et d&#x27;autres.</p><p>Et le Rav (Rabbi Moche ben Maimon, Maimonide) a dit dans le Guide des egares (3e partie, chapitre 8) : ne pense pas que nous appelons notre langue &#x27;langue de saintete&#x27; par orgueil ou par erreur ; il en est ainsi parce que cette langue est sainte : on n&#x27;y trouve pas de noms propres pour l&#x27;organe de l&#x27;accouplement, chez le male ou chez la femelle, ni pour la semence, ni pour l&#x27;urine, ni pour l&#x27;excrement, mais seulement par expression detournee. Et que le mot chegal (שגל) ne t&#x27;induise pas en erreur, car il designe la femme preparee a l&#x27;accouplement ; et ce qu&#x27;ils ont dit (Deuteronome 28,30) yichgalena (ישגלנה), c&#x27;est d&#x27;apres ce qui est ecrit a son sujet, et son sens est : il prendra une femme pour concubine.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>והנה אין צורך לטעם הזה, כי הדבר ברור שהלשון קודש קדשים הוא כמו שפירש. והטעם שהזכיר, על דעתי אינו אמת, כי מה שיכנו ישגלנה ישכבנה יורה כי משגל שם עצם לבעילה, וכן יכנו (מל&quot;ב יח, כז) לאכול את חוריהם, כי הוא שם מגונה.</p><p>ואם מפני טעמו של הרב היה קורין לו לשון נקיה כענין ששנינו (סנהדרין פ&quot;ח, א) עד שיקיף זקן התחתון ולא העליון אלא שדברו החכמים בלשון נקיה, ואמרו (בראשית לט, ו) כי אם הלחם אשר הוא אוכל לשון נקי, וכן במקומות רבים, עד כאן לשון הרמב&quot;ן:</p></div><div class="fr"><p>Or il n&#x27;est pas besoin de cette raison-la, car la chose est claire : cette langue est saint des saints, ainsi qu&#x27;il l&#x27;a explique. Mais la raison qu&#x27;il a mentionnee n&#x27;est pas vraie, a mon avis : car le fait meme que l&#x27;on remplace yichgalena (ישגלנה) par yichkavena (ישכבנה, &#x27;il couchera avec elle&#x27;) montre bien que michgal (משגל) est un nom propre pour l&#x27;acte de l&#x27;accouplement ; et de meme on remplace (2 Rois 18,27) &#x27;manger leurs excrements&#x27; (חוריהם), car c&#x27;est un mot repugnant.</p><p>Et si c&#x27;etait pour la raison du Rav, on aurait appele cette langue &#x27;langue chaste&#x27; (lachon nekiya), a la maniere de ce que nous avons appris (Sanhedrin, chapitre 8, michna 1) : &#x27;jusqu&#x27;a ce que pousse tout autour la barbe du bas et non celle du haut, mais les Sages ont parle en langage chaste&#x27; ; et il est dit (Genese 39,6) &#x27;sinon le pain qu&#x27;il mangeait&#x27;, ce qui est un langage chaste, et ainsi en de nombreux endroits. Jusqu&#x27;ici les termes du Ramban.</p></div></div><div class="seg"><div class="he" dir="rtl"><p>ואיני מבין דברי הרמב&quot;ן, כי הוא לא תירץ רק למה אנו קורין לשוננו לשון הקודש, ואמר מפני שכל דברי קדושות נאמרו בלשון זה. אבל עדיין הקושיא במקומה עומדת למה באמת בחר השם יתברך בלשון זה וקידש אותו:</p></div><div class="fr"><p>Et je ne comprends pas les paroles du Ramban, car il n&#x27;a repondu qu&#x27;a la question de savoir pourquoi nous appelons notre langue &#x27;langue de saintete&#x27;, et il a dit : parce que toutes les paroles de saintete ont ete dites dans cette langue. Mais la difficulte demeure entiere a sa place : pourquoi donc, en verite, le Nom beni soit-Il a-t-Il choisi cette langue et l&#x27;a-t-Il sanctifiee ?</p></div></div>
+<nav class="dafnav"><a href="020.html">&lsaquo; Toldot Adam, Bayit Ne&#x27;eman (2/2)</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="022.html">Toldot Adam, Bayit Acharon (1/4) &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schemas</button><button onclick="pedaAll(false)">✕</button><a class="ask" href="https://notebooklm.google.com/notebook/6dbbbab4-6cd3-43b6-8f58-ee9e5f0ab696" target="_blank" rel="noopener" title="Poser une question sur ces textes (NotebookLM)">💬</a></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+<div id="signaler-err" style="text-align:center;margin:34px 0 10px;padding-top:14px;border-top:1px solid #e7e2d8">
+<a id="signaler-lien" href="#" style="display:inline-block;color:#78716c;text-decoration:none;font-size:.82rem;border:1px solid #e7e2d8;background:#fffdf8;border-radius:999px;padding:5px 14px">&#9993; Signaler une erreur de traduction</a>
+</div>
+<script>(function(){var a=document.getElementById('signaler-lien');if(!a)return;
+var t=(document.title||'').replace(/\s+/g,' ').trim();
+function maj(){var s='';try{s=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
+a.href='mailto:chiourimsba@gmail.com?subject='+encodeURIComponent('Correction — '+t)+'&body='+encodeURIComponent('Page : '+location.href+'\n'+(s?('\nPassage selectionne :\n« '+s+' »\n'):'\nPassage concerne :\n\n')+'\nCorrection proposee :\n\n\n— envoye depuis '+location.hostname);}
+maj();document.addEventListener('selectionchange',maj);a.addEventListener('mouseenter',maj);})();</script>
+<script src="https://chiourimsba.vercel.app/chat.js" defer></script>
+</body></html>

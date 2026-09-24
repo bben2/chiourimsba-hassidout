@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hassidout — bibliotheque bilingue</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.6;
+ font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1040px;margin:0 auto;padding:26px 18px 80px}
+header.top{text-align:center;padding:22px 0 18px;border-bottom:2px solid var(--line);margin-bottom:8px}
+header.top .he{font-family:"Frank Ruhl Libre",serif;font-size:2rem;color:var(--navy);direction:rtl;line-height:1.3}
+header.top h1{margin:.2em 0 .15em;font-size:1.45rem;font-weight:600}
+header.top .sub{color:var(--muted);font-size:.94rem;max-width:620px;margin:0 auto}
+.stats{display:inline-block;margin-top:14px;background:var(--paper);border:1px solid var(--line);
+ border-radius:999px;padding:5px 15px;font-size:.85rem;color:var(--muted)}
+section.fam{margin:34px 0 0}
+section.fam h2{margin:0;font-size:1.12rem;font-weight:600;color:var(--navy)}
+.fam-sub{margin:.2em 0 14px;color:var(--muted);font-size:.9rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(268px,1fr));gap:13px}
+a.card{display:flex;flex-direction:column;gap:5px;text-decoration:none;color:inherit;
+ background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--gold);
+ border-radius:10px;padding:13px 15px;transition:border-color .15s,transform .15s}
+a.card:hover{border-color:var(--gold);transform:translateY(-1px)}
+a.card .he{font-family:"Frank Ruhl Libre",serif;font-size:1.15rem;color:#8a6508;direction:rtl}
+a.card .fr{font-weight:600;font-size:.98rem}
+a.card .meta{color:var(--muted);font-size:.83rem}
+footer{margin-top:46px;padding-top:16px;border-top:1px solid var(--line);
+ color:var(--muted);font-size:.85rem;text-align:center}
+footer a{color:var(--navy)}
+@media(max-width:520px){header.top .he{font-size:1.6rem}.wrap{padding:18px 14px 60px}}
+.accueil{display:inline-block;margin:0 0 14px;color:#1e3a5f;text-decoration:none;font-size:.88rem;border:1px solid #e7e2d8;background:#fffdf8;border-radius:999px;padding:5px 14px;transition:border-color .15s}.accueil:hover{border-color:#b8860b}
+</style></head><body><div class="wrap">
+<a class="accueil" href="https://chiourimsba.vercel.app">&larr; Accueil Chiourim BA</a>
+<header class="top">
+<div class="he">חסידות ומוסר</div>
+<h1>Hassidout et moussar</h1>
+<p class="sub">Les grands textes du hassidisme et du travail sur soi,
+en edition bilingue hebreu-francais, traduits integralement.</p>
+<div class="stats">10 ouvrages · 1 841 sections</div>
+</header>
+<section class="fam">
+<h2>Hassidout</h2><p class="fam-sub">Les maitres du hassidisme, de Lizhensk a Breslev</p>
+<div class="grid">
+<a class="card" href="noamelimelech/index.html"><span class="he">נועם אלימלך</span><span class="fr">Noam Elimelech</span><span class="meta">R. Elimelech de Lizhensk · 128</span></a>
+<a class="card" href="kedushatlevi/index.html"><span class="he">קדושת לוי</span><span class="fr">Kedushat Levi</span><span class="meta">R. Levi Yitzhak de Berditchev · 203</span></a>
+<a class="card" href="likuteimoharan/index.html"><span class="he">ליקוטי מוהר״ן</span><span class="fr">Likoutei Moharan</span><span class="meta">R. Nahman de Breslev · 82</span></a>
+<a class="card" href="sfatemet/index.html"><span class="he">שפת אמת</span><span class="fr">Sefat Emet</span><span class="meta">Gour · 68 parachiot</span></a>
+<a class="card" href="sodyesharim/index.html"><span class="he">סוד ישרים</span><span class="fr">Sod Yesharim</span><span class="meta">Radzin · fetes (21)</span></a>
+<a class="card" href="beityaakov/index.html"><span class="he">בית יעקב</span><span class="fr">Beth Yaakob</span><span class="meta">Izbica · Berechit (12)</span></a>
+</div></section>
+<section class="fam">
+<h2>Moussar et pensee</h2><p class="fam-sub">Le travail sur soi et les fondements de la foi</p>
+<div class="grid">
+<a class="card" href="shlah/index.html"><span class="he">של"ה</span><span class="fr">Shnei Louhot HaBrit</span><span class="meta">R. Yeshayahou Horowitz · 833 sections</span></a>
+<a class="card" href="tzidkat/index.html"><span class="he">צדקת הצדיק</span><span class="fr">Tzidkat HaTzadik</span><span class="meta">R. Tzadok de Lublin · 264</span></a>
+<a class="card" href="derechhashem/index.html"><span class="he">דרך ה&#x27;</span><span class="fr">Derech Hashem</span><span class="meta">Ramhal · 32 chapitres</span></a>
+<a class="card" href="daattevunot/index.html"><span class="he">דעת תבונות</span><span class="fr">Daat Tevunot</span><span class="meta">Ramhal · 198 sections</span></a>
+</div></section>
+<footer>Textes sources : <a href="https://www.sefaria.org">Sefaria</a> ·
+Voir aussi <a href="https://guemara.vercel.app">Guemara</a> et <a href="https://halakha.vercel.app">Halakha</a></footer>
+</div><div id="signaler-err" style="text-align:center;margin:34px 0 10px;padding-top:14px;border-top:1px solid #e7e2d8">
+<a id="signaler-lien" href="#" style="display:inline-block;color:#78716c;text-decoration:none;font-size:.82rem;border:1px solid #e7e2d8;background:#fffdf8;border-radius:999px;padding:5px 14px">&#9993; Signaler une erreur de traduction</a>
+</div>
+<script>(function(){var a=document.getElementById('signaler-lien');if(!a)return;
+var t=(document.title||'').replace(/\s+/g,' ').trim();
+var sel='';try{sel=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
+function maj(){var s=''; try{s=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
+a.href='mailto:chiourimsba@gmail.com'
++'?subject='+encodeURIComponent('Correction — '+t)
++'&body='+encodeURIComponent('Page : '+location.href+'\n'+(s?('\nPassage selectionne :\n« '+s+' »\n'):'\nPassage concerne :\n\n')+'\nCorrection proposee :\n\n\n— envoye depuis '+location.hostname);}
+maj();document.addEventListener('selectionchange',maj);a.addEventListener('mouseenter',maj);})();</script>
+<script src="https://chiourimsba.vercel.app/chat.js" defer></script>
+</body></html>

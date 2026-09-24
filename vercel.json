@@ -1,0 +1,9 @@
+{ "headers": [
+  { "source": "/nlm/(.*)", "headers": [
+    { "key": "Access-Control-Allow-Origin", "value": "*" },
+    { "key": "Content-Type", "value": "text/plain; charset=utf-8" }
+  ]},
+  { "source": "/ocr/(.*)", "headers": [
+    { "key": "Access-Control-Allow-Origin", "value": "*" }
+  ]}
+]}
