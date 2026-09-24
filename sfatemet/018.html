@@ -58,7 +58,7 @@ var sel='';try{sel=(window.getSelection?String(window.getSelection()):'').trim()
 function maj(){var s=''; try{s=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
 a.href='mailto:chiourimsba@gmail.com'
 +'?subject='+encodeURIComponent('Correction — '+t)
-+'&body='+encodeURIComponent('Page : '+location.href+'\n'+(s?('\nPassage selectionne :\n« '+s+' »\n'):'\nPassage concerne :\n\n')+'\nCorrection proposee :\n\n\n— envoye depuis '+location.hostname);}
++'&body='+encodeURIComponent('Page : '+location.href+'\n'+(s?('\nPassage sélectionné :\n« '+s+' »\n'):'\nPassage concerné :\n\n')+'\nCorrection proposée :\n\n\n— envoyé depuis '+location.hostname);}
 maj();document.addEventListener('selectionchange',maj);a.addEventListener('mouseenter',maj);})();</script>
 <script src="https://chiourimsba.vercel.app/chat.js" defer></script>
 </body></html>
