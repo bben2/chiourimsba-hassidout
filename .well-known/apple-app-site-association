@@ -1,0 +1,20 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "A4BZN7Q5R6.com.chiourimsba.app"
+                ],
+                "components": [
+                    {
+                        "/": "/*/index.html",
+                        "exclude": true
+                    },
+                    {
+                        "/": "/*/*.html"
+                    }
+                ]
+            }
+        ]
+    }
+}
