@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mei HaShiloach — Anthologie - Talmud - Haguiga</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+</style></head><body><div class="wrap">
+<header class="top"><div class="he">מי השלוח</div><h1>Mei HaShiloach — Anthologie - Talmud - Haguiga</h1>
+<div class="sub">Rabbi Mordechai Yosef Leiner d Izbica</div></header>
+<nav class="dafnav"><a href="261.html">&lsaquo; Anthologie - Talmud - Meguila</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="263.html">Anthologie - Talmud - Yevamot &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary><p>R&#x27; Yosef ki matei le-haï kara bakhei (lorsque Rabbi Yosef parvenait à ce kara, verset, il pleurait) &quot;Ve-yech nispeh be-lo michpat&quot; (&quot;et il y a qui est emporte sans michpat, jugement&quot;) (Proverbes 13,23) amar mi ikka de-azil be-lo zimneh (il dit : mi ikka, y a-t-il, de-azil, qui s&#x27;en aille, be-lo zimneh, sans son temps). Ba-zeh be&#x27;er kevod Aazmo&quot;r (אאזמו&quot;ר, adoni avi zekeni mori ve-rabbi : mon seigneur, mon père, mon aïeul, mon...</p></details>
+<div class="seg"><div class="he" dir="rtl"><p>ר&#x27; יוֹסֵף כִּי מָטֵי לְהַאי קְרָא בָּכֵי &quot;וְיֵשׁ נִסְפֶּה בְּלֹא מִשְׁפָּט&quot; (משלי י&quot;ג,כ&quot;ג) אָמַר מִי אִיכָּא דְּאָזִיל בְּלֹא זִמְנֵיהּ. בָּזֶה בֵּיאֵר כְּאאזמו&quot;ר הָרַב הַגה&quot;ק זללה&quot;ה שֶׁיֵּשׁ מִשְׁפָּט מֵהַשי&quot;ת שֶׁזֶּה יִסָּפֶה בְּלֹא מִשְׁפָּט, שֶׁגַּם זֶה הוּא מִשְׁפָּט, וְזֶה הַטּוֹב וְהַנָּאוֹת לְפָנָיו.(תפארת החנוכי וילך דף ק&#x27;:</p><p>ועיי&quot;ש ביאורו)</p></div><div class="fr"><p>R&#x27; Yosef ki matei le-haï kara bakhei (lorsque Rabbi Yosef parvenait à ce kara, verset, il pleurait) &quot;Ve-yech nispeh be-lo michpat&quot; (&quot;et il y a qui est emporte sans michpat, jugement&quot;) (Proverbes 13,23) amar mi ikka de-azil be-lo zimneh (il dit : mi ikka, y a-t-il, de-azil, qui s&#x27;en aille, be-lo zimneh, sans son temps). Ba-zeh be&#x27;er kevod Aazmo&quot;r (אאזמו&quot;ר, adoni avi zekeni mori ve-rabbi : mon seigneur, mon père, mon aïeul, mon maître et mon rabbin) ha-rav ha-gah&quot;k (הגה&quot;ק, ha-gaon ha-kadoch : le saint Gaon) zllh&quot;h (זללה&quot;ה, zikhrono lehaye haolam haba : que son souvenir soit pour la vie du monde à venir) she-yech michpat me-Hachem Yitbarakh (השי&quot;ת, Hachem, qu&#x27;Il soit béni) she-zeh yisapeh be-lo michpat (qu&#x27;il y a un michpat de Hachem Yitbarakh que celui-ci yisapeh, soit emporte, sans michpat), she-gam zeh hu michpat (que ceci aussi est michpat), ve-zeh ha-tov ve-ha-naot lefanav (et ceci est le tov, bien, et le naot, convenable, devant Lui).</p><p>(Tiferet ha-Hanokhi, Vayelekh, daf k&#x27; [100b]; ve-ayy&quot;sh [עיי&quot;ש, ve-ayen sham : et vois la] be&#x27;uro)</p></div></div><div class="seg"><div class="he" dir="rtl"><p>מְלַמֵּד שֶׁמַּגְבִּיהִין אוֹתוֹ וּמַרְאִין בּוֹ לְעוֹלֵי רְגָלִים לֶחֶם הַפָּנִים וְאוֹמְרִים לָהֶם רְאוּ חִיבַּתְכֶם לִפְנֵי הַמָּקוֹם סִילּוּקוֹ כְּסִידּוּרוֹ. וְהַטּוּמְאָה שֶׁהָיָה בַּשֻּׁלְחָן בְּסִיבַּת הַהַגְבָּהָה לְהַרְאוֹתוֹ לְעוֹלֵי רְגָלִים (כמ&quot;ש בגמ&#x27; שם) הוּא גַּם כֵּן עַל דֶּרֶךְ שֶׁשָּׁמַעְתִּי מֵהַמַּעֲשֶׂה שֶׁהָיָה אֵצֶל רַבֵּינוּ הַקָּדוֹשׁ הָרַבִּי מִלּוּבְּלִין זצוק&quot;ל שֶׁנָּתְנוּ לוֹ לְקִידּוּשׁ עַל פִּי טָעוּת צְלוֹחִית מֵי דְּבַשׁ, וּכְשֶׁהִסְתַּכֵּל בַּכּוֹס אָמַר שֶׁהוּא כָּשֵׁר אֲבָל אֵינוֹ רוֹאֶה בּוֹ הַבְּהִירוּת שֶׁל כָּשֵׁר וְעַל כֵּן לֹא רָצָה לְקַדֵּשׁ עָלָיו, וְעַל זֶה אָמַר רַבֵּינוּ הַקָּדוֹשׁ ז״ל כִּי בְּדָבָר שֶׁנִּמְצָא גַּם הַהִיפּוּךְ מֵהַקְּדוּשָּׁה בְּאוֹתוֹ דָּבָר יֵשׁ בְּהִירוּת הַקְּדוּשָּׁה, וּבְדָבָר שֶׁאֵין בּוֹ הַהִיפּוּךְ אֵין בּוֹ גַּם בְּהִירוּת הַהֶכְשֵׁר.</p><p>וּלְפִי חִיבָּתָן הוּא טוּמְאָתָן וְעַל כֵּן גַּם בָּזֶה שֶׁהָיָה הַגְבָּהַת הַשֻּׁלְחָן הָיָה הַשֻּׁלְחָן מְקַבֵּל טוּמְאָה, זֶה בְּעַצְמוֹ גַּם כֵּן מַרְאֶה חִיבָּתָן, דְּבָאוּמּוֹת לֵיכָּא טוּמְאַת זִיבָה וּנְגָעִים וְהַכֹּל רַק בְּיִשְׂרָאֵל לְפִי חוֹבָתָן וּלְכָךְ כָּאן נִקְרָא שֻׁלְחָן הַטָּהוֹר מִכְּלָל שֶׁהוּא טָמֵא.(פרי צדיק אמור י&quot;א, דברי חלומות אות כ&quot;ד)</p></div><div class="fr"><p>Melamed she-magbihin oto u-mar&#x27;in bo le-olei regalim le&#x27;hem ha-panim (cela enseigne qu&#x27;ils le magbihin, élèvent, et montrent en lui aux olei regalim, montants des fêtes, le le&#x27;hem ha-panim, pain de proposition) ve-omrim lahem re&#x27;u hibatchem lifnei ha-Makom siluko ke-siduro (et ils leur disent : voyez votre hibah, affection, devant ha-Makom, le Lieu : son siluk, retrait, est comme son sidur, arrangement). Ve-ha-tumah she-hayah ba-shulhan be-sibbat ha-hagbahah lehar&#x27;oto le-olei regalim (et la tumah, impureté, qui était dans le shulhan, table, à cause de la hagbahah, élévation, pour le montrer aux olei regalim) (km&quot;sh [כמ&quot;ש, kemo she-katuv : comme il est écrit] ba-gemara sham) hu gam ken al derekh she-shamati me-ha-maaseh she-hayah etsel Rabbenu ha-kadoch ha-Rabbi mi-Lublin ztsuk&quot;l (זצוק&quot;ל, zekher tsadik ve-kadoch livrakha : que le souvenir du juste et saint soit pour bénédiction) (ceci est aussi selon la voie de ce que j&#x27;ai entendu de l&#x27;histoire qui fut auprès de Rabbenu ha-kadoch, notre saint maître, le Rabbi de Lublin ztsuk&quot;l) she-natnu lo le-kiddush al pi ta&#x27;ut tselohit mei dvash (qu&#x27;on lui donna pour kiddush, sanctification, par ta&#x27;ut, erreur, une tselohit, fiole, de mei dvash, eau de miel), u-khe-she-histakel ba-kos amar she-hu kasher aval eino ro&#x27;eh bo ha-behirut chel kasher ve-al ken lo ratsah lekadesh alav (et lorsqu&#x27;il histakel, regarda, ba-kos, dans la coupe, il dit qu&#x27;elle est kasher, apte, mais qu&#x27;il n&#x27;y voit pas la behirut, clarté, du kasher, et c&#x27;est pourquoi il n&#x27;a pas voulu lekadesh, sanctifier, sur elle), ve-al zeh amar Rabbenu ha-kadoch z&quot;l (ז&quot;ל, zikhrono livrakha : que son souvenir soit pour bénédiction) ki be-davar she-nimtsa gam ha-hipukh me-ha-kedoucha be-oto davar yech behirut ha-kedoucha (que dans une chose où se trouve aussi ha-hipukh, l&#x27;inverse, de la kedoucha, sainteté, dans cette chose-la il y a la behirut de la kedoucha), u-ve-davar she-ein bo ha-hipukh ein bo gam behirut ha-hechsher (et dans une chose où il n&#x27;y a pas ha-hipukh, il n&#x27;y a pas non plus la behirut du hechsher, aptitude).</p><p>U-lefi hibatan hu tumatan (et selon leur hibah est leur tumah) ve-al ken gam ba-zeh she-hayah hagbahat ha-shulhan hayah ha-shulhan mekabel tumah (et c&#x27;est pourquoi aussi en ceci, qu&#x27;il y avait l&#x27;hagbahah du shulhan, le shulhan recevait tumah), zeh be-atsmo gam ken mar&#x27;eh hibatan (ceci en soi-même montre aussi leur hibah), de-ba-umot leikka tumat zivah u-negaim (car chez les umot, nations, leikka, il n&#x27;y a pas, tumat zivah, impureté de flux, et negaim, plaies) ve-ha-kol rak be-Yisrael lefi hovatan (et le tout n&#x27;est que dans Israël selon leur hovah, obligation) u-lekhakh kan nikra shulhan ha-tahor mi-klal she-hu tamei (et c&#x27;est pourquoi ici il est appelé shulhan ha-tahor, la table pure, mi-klal, impliquant, qu&#x27;il est tamei, impur). (Pri Tsadik, Emor 11, Divrei Halomot ot 24)</p></div></div>
+<nav class="dafnav"><a href="261.html">&lsaquo; Anthologie - Talmud - Meguila</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="263.html">Anthologie - Talmud - Yevamot &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schémas</button><button onclick="pedaAll(false)">✕</button><a class="ask" href="https://notebooklm.google.com/notebook/6dbbbab4-6cd3-43b6-8f58-ee9e5f0ab696" target="_blank" rel="noopener" title="Poser une question sur ces textes (NotebookLM)">💬</a></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+<script src="/annot.js" defer></script><div id="signaler-err" style="text-align:center;margin:34px 0 10px;padding-top:14px;border-top:1px solid #e7e2d8">
+<a id="signaler-lien" href="#" style="display:inline-block;color:#78716c;text-decoration:none;font-size:.82rem;border:1px solid #e7e2d8;background:#fffdf8;border-radius:999px;padding:5px 14px">&#9993; Signaler une erreur de traduction</a>
+</div>
+<script>(function(){var a=document.getElementById('signaler-lien');if(!a)return;
+var t=(document.title||'').replace(/\s+/g,' ').trim();
+var sel='';try{sel=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
+function maj(){var s=''; try{s=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
+a.href='mailto:chiourimsba@gmail.com'
++'?subject='+encodeURIComponent('Correction — '+t)
++'&body='+encodeURIComponent('Page : '+location.href+'\n'+(s?('\nPassage sélectionné :\n« '+s+' »\n'):'\nPassage concerné :\n\n')+'\nCorrection proposée :\n\n\n— envoyé depuis '+location.hostname);}
+maj();document.addEventListener('selectionchange',maj);a.addEventListener('mouseenter',maj);})();</script>
+<script src="https://chiourimsba.vercel.app/chat.js" defer></script>
+</body></html>

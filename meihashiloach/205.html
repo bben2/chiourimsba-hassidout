@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mei HaShiloach — Anthologie - Chemot - Beshalach</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+</style></head><body><div class="wrap">
+<header class="top"><div class="he">מי השלוח</div><h1>Mei HaShiloach — Anthologie - Chemot - Beshalach</h1>
+<div class="sub">Rabbi Mordechai Yosef Leiner d Izbica</div></header>
+<nav class="dafnav"><a href="204.html">&lsaquo; Anthologie - Chemot - Bo</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="206.html">Anthologie - Chemot - Yitro &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary><p>&quot;Et ils reviendront et ils camperont devant Pi ha-Hirot.&quot; (Exode 14,2). Et j&#x27;ai entendu un remez (allusion) qu&#x27;il faut hityashev (se composer, s&#x27;installer) et camper avant qu&#x27;il ne fasse sortir sa bouche (piv) vers la herut (liberté) pour parler comme tout ce qui monte sur son esprit.</p></details>
+<div class="seg"><div class="he" dir="rtl"><p>וְיָשׁוּבוּ וְיַחֲנוּ לִפְנֵי פִּי הַחִירוֹת. וְשָׁמַעְתִּי רֶמֶז שֶׁצָּרִיךְ לְהִתְיַשֵּׁב וְלַחֲנוֹת קוֹדֶם שֶׁיּוֹצִיא פִּיו לְחֵירוּת לְדַבֵּר כְּכָל הָעוֹלֶה עַל רוּחוֹ.(עמלה של תורה א׳)</p></div><div class="fr"><p>&quot;Et ils reviendront et ils camperont devant Pi ha-Hirot.&quot; (Exode 14,2). Et j&#x27;ai entendu un remez (allusion) qu&#x27;il faut hityashev (se composer, s&#x27;installer) et camper avant qu&#x27;il ne fasse sortir sa bouche (piv) vers la herut (liberté) pour parler comme tout ce qui monte sur son esprit.</p><p>(Amalah chel Torah 1)</p></div></div><div class="seg"><div class="he" dir="rtl"><p>וְהָיָה כַּאֲשֶׁר יָרִים מֹשֶׁה יָדוֹ וְגָבַר יִשְׂרָאֵל וְכַאֲשֶׁר יָנִיחַ יָדוֹ וְגָבַר עֲמָלֵק. יַעַן שֶׁהוּא עוֹמֵד תָּמִיד נֶגֶד עִיקַּר הַמְּלוּכָה שֶׁל יִשְׂרָאֵל, לְכָךְ אִם יָנִיחַ יָדוֹ מִמֶּנּוּ מְעַט רֶגַע וְלִיתֵּן לוֹ אֲפִילּוּ רַק עַל לְפִי שָׁעָה קִיּוּם הֲוָיָה לְבִלְתִּי הַחֲרִימוֹ כְּדֵי שֶׁיִּתְבָּרֵר אַחַר כָּךְ, אָז מִתְגַּבֵּר הוּא וּמִתְיַצֵּב נֶגֶד יִשְׂרָאֵל וְאוֹמֵר שֶׁהוּא נָקִי אַגַּב אִמּוֹ.</p><p>וְהִמְשִׁיל בָּזֶה אזמו&quot;ר הַגָּאוֹן הַקָּדוֹשׁ זצל&quot;ה לִמְדִינָה אַחַת שֶׁהָיָה הַמִּנְהָג שָׁם לְהַמְלִיךְ מִי שֶׁיֵּשׁ לוֹ עֲשִׁירוּת הַרְבֵּה יוֹתֵר מִכָּל בְּנֵי הַמְּדִינָה, וְהָיָה שָׁם בְּאוֹתָהּ הַמְּדִינָה אֶחָד הַיּוֹשֵׁב בְּבֵית הָאֲסוּרִים שֶׁהָיָה לוֹ עֲשִׁירוּת מוּפְלָג יוֹתֵר מִכָּל בְּנֵי הַמְּדִינָה, וּבִקֵּשׁ לִיתֵּן לְהַמֶּלֶךְ מָמוֹן הַרְבֵּה לְהַנִּיחוֹ חָפְשִׁי מִבֵּית הָאֲסוּרִין, וְהֵשִׁיב לוֹ הַמֶּלֶךְ אִם אַנִּיחֲךָ חָפְשִׁי מִבֵּית הָאֲסוּרִים אָז יִהְיֶה לִי חֶסְרוֹן בְּעִיקַּר הַמְּלוּכָה. לְכָךְ צְרִיכִין לְבַל יִשְׁבּוֹת מֵעֲבוֹדָה כְּנֶגְדּוֹ אֲפִילּוּ רֶגַע אַחַת רַק לְהַאֲבִידוֹ וְלִמְחוֹת אֶת שְׁמוֹ מִזֶּה הָעוֹלָם לְגַמְרֵי.(סוד ישרים פ׳ זכור אות ט׳)</p></div><div class="fr"><p>&quot;Et il était, lorsque Moché élevait sa main, Israël prévalait, et lorsqu&#x27;il posait sa main, Amalek prévalait.&quot; (Exode 17,11). Yaan (parce que) il se tient toujours contre ikar ha-melukhah (l&#x27;essentiel de la royauté) d&#x27;Israël, lakhen (c&#x27;est pourquoi) s&#x27;il pose sa main de lui ne fut-ce qu&#x27;un peu un instant, et pour lui donner même seulement al pi sha&#x27;ah (pour un temps) un kiyum havayah (existence d&#x27;être) afin de ne pas le herim (mettre en herem, anathème / destruction totale) pour qu&#x27;il soit mevorar (clarifié) ensuite, alors il se renforce et se dresse contre Israël et dit qu&#x27;il est naki agav imo (net, innocent à la faveur de sa mère).</p><p>Et Azmo&quot;r (אזמו&quot;ר, adoni zekeni mori ve-rabbi : mon seigneur, mon aïeul, mon maître et mon rabbin) ha-Gaon ha-Kadoch ztsl&quot;h (זצל&quot;ה, zekher tsadik livrakha : que le souvenir du juste soit pour bénédiction) à mashal (compare) ceci à une medinah (pays) où la minhag (coutume) était de couronner celui qui a beaucoup plus d&#x27;ashirut (richesse) que tous les benei ha-medinah (fils du pays), et il y avait la dans cette medinah un qui siégeait en beit ha-asurim (maison des prisonniers) qui avait une ashirut muflag (richesse extraordinaire) plus que tous les benei ha-medinah, et il demanda à donner au roi beaucoup de mamon (argent) pour le laisser hofshi (libre) de la maison des prisonniers, et le roi lui répondit : si je te laisse hofshi de la maison des prisonniers, alors j&#x27;aurai un hisaron (manque) dans ikar ha-melukhah. C&#x27;est pourquoi il faut que l&#x27;on ne shavat (cesse) pas de l&#x27;avodah (service) contre lui même un seul instant, seulement de l&#x27;abed (détruire) et d&#x27;effacer son nom de ce monde entièrement.</p><p>(Sod Yesharim, parachat Zakhor, ot 9)</p></div></div>
+<nav class="dafnav"><a href="204.html">&lsaquo; Anthologie - Chemot - Bo</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="206.html">Anthologie - Chemot - Yitro &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schémas</button><button onclick="pedaAll(false)">✕</button><a class="ask" href="https://notebooklm.google.com/notebook/6dbbbab4-6cd3-43b6-8f58-ee9e5f0ab696" target="_blank" rel="noopener" title="Poser une question sur ces textes (NotebookLM)">💬</a></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+<script src="/annot.js" defer></script><div id="signaler-err" style="text-align:center;margin:34px 0 10px;padding-top:14px;border-top:1px solid #e7e2d8">
+<a id="signaler-lien" href="#" style="display:inline-block;color:#78716c;text-decoration:none;font-size:.82rem;border:1px solid #e7e2d8;background:#fffdf8;border-radius:999px;padding:5px 14px">&#9993; Signaler une erreur de traduction</a>
+</div>
+<script>(function(){var a=document.getElementById('signaler-lien');if(!a)return;
+var t=(document.title||'').replace(/\s+/g,' ').trim();
+var sel='';try{sel=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
+function maj(){var s=''; try{s=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
+a.href='mailto:chiourimsba@gmail.com'
++'?subject='+encodeURIComponent('Correction — '+t)
++'&body='+encodeURIComponent('Page : '+location.href+'\n'+(s?('\nPassage sélectionné :\n« '+s+' »\n'):'\nPassage concerné :\n\n')+'\nCorrection proposée :\n\n\n— envoyé depuis '+location.hostname);}
+maj();document.addEventListener('selectionchange',maj);a.addEventListener('mouseenter',maj);})();</script>
+<script src="https://chiourimsba.vercel.app/chat.js" defer></script>
+</body></html>

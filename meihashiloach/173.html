@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mei HaShiloach — Tome II - Talmud - Yevamot</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+</style></head><body><div class="wrap">
+<header class="top"><div class="he">מי השלוח</div><h1>Mei HaShiloach — Tome II - Talmud - Yevamot</h1>
+<div class="sub">Rabbi Mordechai Yosef Leiner d Izbica</div></header>
+<nav class="dafnav"><a href="172.html">&lsaquo; Tome II - Talmud - Haguiga</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="174.html">Tome II - Talmud - Ketoubot &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary><p>Ha ka mashma lan (ceci vient nous enseigner): da&#x27;at ratzon milta hu (la daat, connaissance, du ratzon, volonté, est une milta, une chose [qui compte]). Hayinu (c&#x27;est-à-dire) ce que parfois l&#x27;homme sent un hechek (désir) et un ratzon lidrosh et Hachem ve-uzo u-levakesh panav (de chercher ה&#x27; et Sa force et de rechercher Sa Face) (Psaumes 105,4), ceci est et ratzon (temps de faveur).</p></details>
+<div class="seg"><div class="he" dir="rtl"><p>הָא קָמַשְׁמַע לַן דַּעַת רָצוֹן מִילְּתָא הוּא. הַיְינוּ מַה שֶּׁפְּעָמִים הָאָדָם מַרְגִּישׁ חֵשֶׁק וְרָצוֹן לִדְרֹשׁ אֶת ה&#x27; וְעֻזּוֹ וּלְבַקֵּשׁ פָּנָיו, זֶה הוּא עֵת רָצוֹן.</p><p>וּמִלְּתָא, הוּא שֶׁיְּאַמֵּץ אָז אֶת לִבּוֹ בִּתְפִלָּה שֶׁיִּתְפַּלֵּל לְהַשי&quot;ת שֶׁיִּקְבַּע זֹאת בְּלִבּוֹ כְּיָתֵד לֹא יִמּוֹט לְעוֹלָם שֶׁיִּהְיֶה תָּמִיד זֶה הַחֵשֶׁק וְהָרָצוֹן בְּלִבּוֹ, וּכְמוֹ שֶׁמָּצִינוּ בְּדָוִד הַמֶּלֶךְ כְּשֶׁהָיָה לוֹ נְדִיבוּת וְרָצוֹן בְּכָל לִבּוֹ הִתְפַּלֵּל לְהַשי&quot;ת, שֶׁנֶּאֱמַר (דברי הימים א&#x27; כ&quot;ט,י&quot;ח) &quot;ה&#x27; אֱלֹהֵי אַבְרָהָם יִצְחָק וְיִשְׂרָאֵל אֲבוֹתֵינוּ שָׁמְרָה זֹּאת לְעוֹלָם לְיֵצֶר מַחְשְׁבוֹת לְבַב עַמֶּךָ&quot;, הַיְינוּ שֶׁזֶּה הָרָצוֹן יִקָּבַע בְּלִבֵּנוּ לְעוֹלְמֵי עַד וְזֶהוּ עֵת רָצוֹן מִילְּתָא הוּא.</p></div><div class="fr"><p>Ha ka mashma lan (ceci vient nous enseigner): da&#x27;at ratzon milta hu (la daat, connaissance, du ratzon, volonté, est une milta, une chose [qui compte]). Hayinu (c&#x27;est-à-dire) ce que parfois l&#x27;homme sent un hechek (désir) et un ratzon lidrosh et Hachem ve-uzo u-levakesh panav (de chercher ה&#x27; et Sa force et de rechercher Sa Face) (Psaumes 105,4), ceci est et ratzon (temps de faveur).</p><p>U-milta (et la milta), c&#x27;est qu&#x27;il raffermisse alors son cœur bi-tefilah (dans la prière), qu&#x27;il prie Hachem Yitbarakh (השי&quot;ת, Hachem, qu&#x27;Il soit béni) qu&#x27;Il fixe ceci dans son cœur ke-yated lo yimot le-olam (comme une yated, cheville, qui ne chancellera pas à jamais), que soient toujours ce hechek et ce ratzon dans son cœur; u-khemo she-matsinu (et comme nous avons trouvé) be-David ha-melekh (en David le roi): lorsque était à lui nedivut (générosité) et ratzon be-khôl libo (de tout son cœur), il pria Hachem Yitbarakh, she-neemar (ainsi qu&#x27;il est dit) (I Chroniques 29,18) &quot;ה&#x27; Elokei Avraham Its&#x27;hak ve-Yisrael avoteinu shomrah zot le-olam le-yetser mahshevot levav amekha&quot; (ה&#x27;, Elokei Avraham, Its&#x27;hak et Israël nos pères, garde ceci à jamais pour le yetser, inclination, des pensées du cœur de Ton peuple), hayinu que ce ratzon soit fixe dans notre cœur le-olmei ad (à jamais) ve-zehu (et ceci est) et ratzon milta hu (un temps de faveur est une chose [qui compte]).</p></div></div><div class="seg"><div class="he" dir="rtl"><p>&quot;וַיֹּאמֶר ה&#x27; אֶל שָׁאוּל וְאֶל בֵּית הַדָּמִים&quot; (שמואל ב&#x27; כ&quot;א,א&#x27;) &quot;אֶל שָׁאוּל&quot; שֶׁלֹּא נִסְפַּד כַּהֲלָכָה &quot;וְאֶל בֵּית הַדָּמִים עַל אֲשֶׁר הֵמִית הַגִּבְעוֹנִים&quot; וְכוּ&#x27; אָמַר דָּוִד, שָׁאוּל נְפַקוּ לְהוּ תְּרֵיסַר יַרְחֵי שַׁתָּא וְלָא דַּרְכֵּיהּ לְאַסְפְּדֵיהּ, נְתִינִים נִיקְרִינְהוּ וּנְפַיְּיסִינְהוּ. לְהָבִין אִם כֵּן לָמָּה עָנַשׁ הַשי&quot;ת עַל הַחֵטְא מַה שֶּׁלֹּא נִסְפַּד שָׁאוּל הֲלֹא הַשי&quot;ת יָדַע שֶׁכְּבָר נָפְקוּ תְּרֵיסַר יַרְחֵי שַׁתָּא וְלֹא יוּכְלוּ לְתַקֵּן, מִזֶּה הוּא לִימּוּד שֶׁאִם חָלִילָה יַעַבְרוּ מְאוֹרָעוֹת עַל הָאָדָם אוֹ עַל כְּלַל יִשְׂרָאֵל וְלֹא חָשׁוּד קֻדְשָׁא בְּרִיךְ הוּא דְּעָבֵיד דִּינָא בְּלָא דִּינָא, וְאַף שֶׁהָאָדָם יוֹדֵעַ בְּדַעְתּוֹ שֶׁכְּבָר לֹא יָכוֹל לְתַקֵּן חֶטְאוֹ וְאַף שֶׁהַשי&quot;ת יוֹדֵעַ זֹאת, מִכָּל מָקוֹם צָרִיךְ הָאָדָם מִצִּדּוֹ לְפַשְׁפֵּשׁ בְּמַעֲשָׂיו וְלוֹמַר מָה אֶעֱשֶׂה הֲלֹא עוֹד אֵין בְּיָדִי לְתַקֵּן וְהַמְּנִיעָה הוּא בְּהֶכְרֵחַ, וּבָזֶה יְכֻפַּר עֲוֹנוֹ וְלֹא יִסְמֹךְ עַל מַה שֶּׁהַשי&quot;ת יוֹדֵעַ זֶה הַמְּנִיעָה, רַק הוּא מִצִּדּוֹ צָרִיךְ לְהִצְטַדֵּק בְּאָמְרוֹ כֵן.</p></div><div class="fr"><p>&quot;Va-yomer ה&#x27; el Shaul ve-el beit ha-damim&quot; (et ה&#x27; dit: [c&#x27;est] pour Shaul et pour beit ha-damim, la maison du sang) (II Samuel 21,1). &quot;El Shaul&quot; (pour Shaul): she-lo nispad ka-halakha (qu&#x27;il n&#x27;a pas été nispad, lamente selon la halakha, la loi).</p><p>&quot;Ve-el beit ha-damim al acher hemit ha-Giv&#x27;onim&quot; (et pour la maison du sang, parce qu&#x27;il a fait mourir les Giv&#x27;onim, Gabaonites) ve-khu&#x27; (etc.). Amar David (David a dit): Shaul, nafku lehu treisar yarhei shata ve-la darkhei le-aspdei (pour Shaul, sont déjà sortis pour eux treisar yarhei shata, les douze mois de l&#x27;année, et ce n&#x27;est pas darkhei, la voie / la coutume, de l&#x27;aspdei, le lamenter); Netinim nikrinehu u-nefaisinhu (les Netinim, Gabaonites donnés [au Temple], appelons-les et apaisons-les).</p><p>Lehavin (pour comprendre): im ken (s&#x27;il en est ainsi) pourquoi Hachem Yitbarakh à-t-Il puni al ha-het (sur la faute) ce que Shaul n&#x27;a pas été nispad? Halo (n&#x27;est-ce pas) Hachem Yitbarakh savait que déjà nafku treisar yarhei shata et qu&#x27;ils ne pourraient pas letaken (faire un tikoun, réparer)?</p><p>Mi-zeh hu limud (de ceci est un limud, enseignement): que si, halilah (à ne pas arriver), des meora&#x27;ot (événements) passeront sur l&#x27;homme où sur kelal Yisrael (l&#x27;ensemble d&#x27;Israël), ve-lo hashud Kudsha Berikh Hu de-avid dina be-la dina (et l&#x27;on ne soupçonné pas Kudsha Berikh Hu, le Saint, béni soit-Il, de faire un din, jugement, sans din), ve-af (et même) que l&#x27;homme sait be-daato (dans sa daat) que déjà il ne peut plus letaken son het (faute), ve-af que Hachem Yitbarakh sait ceci, mi-kol makom (néanmoins) l&#x27;homme doit mi-tsido (de son côté) lefashfesh be-maasav (fouiller dans ses actes) et dire: mah e&#x27;eseh (que ferai-je), halo od ein be-yadi letaken (n&#x27;est-ce pas, il n&#x27;est plus en ma main de réparer) ve-ha-meni&#x27;ah hu be-hekhreah (et la meni&#x27;ah, l&#x27;obstacle, est be-hekhreah, par nécessité); u-va-zeh yekhupar avono (et en ceci son avon, iniquité, sera expie); ve-lo yismokh (et qu&#x27;il ne s&#x27;appuie pas) sur ce que Hachem Yitbarakh sait cette meni&#x27;ah, rak hu mi-tsido (seulement lui, de son côté) doit lehitstadek (se justifier) be-omro ken (en disant ainsi).</p></div></div>
+<nav class="dafnav"><a href="172.html">&lsaquo; Tome II - Talmud - Haguiga</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="174.html">Tome II - Talmud - Ketoubot &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schémas</button><button onclick="pedaAll(false)">✕</button><a class="ask" href="https://notebooklm.google.com/notebook/6dbbbab4-6cd3-43b6-8f58-ee9e5f0ab696" target="_blank" rel="noopener" title="Poser une question sur ces textes (NotebookLM)">💬</a></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+<script src="/annot.js" defer></script><div id="signaler-err" style="text-align:center;margin:34px 0 10px;padding-top:14px;border-top:1px solid #e7e2d8">
+<a id="signaler-lien" href="#" style="display:inline-block;color:#78716c;text-decoration:none;font-size:.82rem;border:1px solid #e7e2d8;background:#fffdf8;border-radius:999px;padding:5px 14px">&#9993; Signaler une erreur de traduction</a>
+</div>
+<script>(function(){var a=document.getElementById('signaler-lien');if(!a)return;
+var t=(document.title||'').replace(/\s+/g,' ').trim();
+var sel='';try{sel=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
+function maj(){var s=''; try{s=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
+a.href='mailto:chiourimsba@gmail.com'
++'?subject='+encodeURIComponent('Correction — '+t)
++'&body='+encodeURIComponent('Page : '+location.href+'\n'+(s?('\nPassage sélectionné :\n« '+s+' »\n'):'\nPassage concerné :\n\n')+'\nCorrection proposée :\n\n\n— envoyé depuis '+location.hostname);}
+maj();document.addEventListener('selectionchange',maj);a.addEventListener('mouseenter',maj);})();</script>
+<script src="https://chiourimsba.vercel.app/chat.js" defer></script>
+</body></html>

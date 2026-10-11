@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mei HaShiloach — Anthologie - Devarim - Ki Teitzei</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+</style></head><body><div class="wrap">
+<header class="top"><div class="he">מי השלוח</div><h1>Mei HaShiloach — Anthologie - Devarim - Ki Teitzei</h1>
+<div class="sub">Rabbi Mordechai Yosef Leiner d Izbica</div></header>
+<nav class="dafnav"><a href="225.html">&lsaquo; Anthologie - Devarim - Shoftim</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="227.html">Anthologie - Devarim - Ki Tavo &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary><p>&quot;Souviens-toi de ce qu&#x27;à fait pour toi Amalek.&quot; (Deutéronome 25,17). Bi-mehiyat Amalek (dans l&#x27;effacement d&#x27;Amalek) vient une pekidah (visitation) la-akarim she-be-Yisrael (pour les akarim, stériles, qui sont en Israël) ve-she-yolidou zera kadoch (et qu&#x27;ils engendrent une zera kadoch, semence sainte), ve-al ken (et pour cela) amirat parachat &quot;Zakhor et asah&quot; ve-go&#x27; (la récitation de la parashah &quot;Souviens-toi de ce qu&#x27;à fait&quot;...</p></details>
+<div class="seg"><div class="he" dir="rtl"><p>זָכוֹר אֵת אֲשֶׁר עָשָׂה לְךָ עֲמָלֵק. בִּמְחִיַּת עֲמָלֵק בָּא פְּקִידָה לַעֲקָרִים שֶׁבְּיִשְׂרָאֵל וְשֶׁיּוֹלִידוּ זֶרַע קָדוֹשׁ, וְעַל כֵּן אֲמִירַת פָּרָשַׁת &quot;זָכוֹר אֵת עָשָׂה&quot; וְגוֹ&#x27; בְּכַוָּנַת הַלֵּב בְּכָל מָקוֹם שֶׁהוּא פּוֹעֵל בְּדִבּוּרוֹ וְכַוָּנַת לִבּוֹ שֶׁהַקָּדוֹשׁ בָּרוּךְ הוּא יִמְחֶנּוּ מִלְמַעְלָה כְּמוֹ שֶׁאָמְרוּ ז&quot;ל, נִרְאֶה לִי דְּהוּא מְסֻגָּל לְבָנִים, וְכֵן קִבַּלְתִּי שֶׁבְּפָרָשַׁת זָכוֹר שֶׁהוּא זְמַן מְחִיַּת עֲמָלֵק שֶׁכָּל יִשְׂרָאֵל קוֹרִין אָז אוֹתָהּ פָּרָשָׁה, הוּא עֵת רָצוֹן לְהִתְפַּלֵּל עַל בָּנִים.</p><p>כִּי בִּמְחִיַּת זֶרַע עֲמָלֵק בָּא רִבּוּי זֶרַע יִשְׂרָאֵל וְהוּא עַל דֶּרֶךְ (מגילה ו&#x27;.) &quot;אִמָּלְאָה הָחֳרָבָה&quot; דִּכְשֶׁחָרְבָה זוֹ מָלְאָה זוֹ, וְעַל דֶּרֶךְ (תהלים ע&quot;ה,י&quot;א) &quot;וְכָל קַרְנֵי רְשָׁעִים אֲגַדֵּעַ&quot;, עַל יְדֵי זֶה וְאָז &quot;תְּרוֹמַמְנָה קַרְנוֹת צַדִּיק&quot;.(פוקד עקרים סוף סי&#x27; ה&#x27; דף כ&quot;ג., רסיסי לילה אות נ&quot;ח ד&quot;ה ענין)</p></div><div class="fr"><p>&quot;Souviens-toi de ce qu&#x27;à fait pour toi Amalek.&quot; (Deutéronome 25,17). Bi-mehiyat Amalek (dans l&#x27;effacement d&#x27;Amalek) vient une pekidah (visitation) la-akarim she-be-Yisrael (pour les akarim, stériles, qui sont en Israël) ve-she-yolidou zera kadoch (et qu&#x27;ils engendrent une zera kadoch, semence sainte), ve-al ken (et pour cela) amirat parachat &quot;Zakhor et asah&quot; ve-go&#x27; (la récitation de la parashah &quot;Souviens-toi de ce qu&#x27;à fait&quot; etc.) bi-kavanat ha-lev (avec kavanat ha-lev, intention du cœur) be-khôl makom she-hu poel be-dibouro ve-kavanat libo (en tout lieu où il agit par son dibour, parole, et par la kavanah de son cœur) she-ha-Kadoch Barukh Hu yimhennu mi-lemaalah (que ha-Kadoch Barukh Hu, le Saint béni soit-Il, l&#x27;efface d&#x27;en haut) kemo she-amrou z&quot;l (ז&quot;ל, zikhronam livrakha : que leur souvenir soit pour bénédiction), nir&#x27;eh li de-hu mesugal le-banim (il m&#x27;apparaît que cela est mesugal, propice, pour des enfants), ve-khen kibalti (et ainsi j&#x27;ai reçu) she-be-parachat Zakhor she-hu zeman mehiyat Amalek (que dans parachat Zakhor, qui est le zeman, temps, de l&#x27;effacement d&#x27;Amalek) she-kol Yisrael korin az otah parashah (que tout Israël lit alors cette parashah), hu et ratson lehitpalel al banim (c&#x27;est un et ratson, temps de faveur, pour prier pour des enfants).</p><p>Ki bi-mehiyat zera Amalek ba ribuy zera Yisrael (car dans l&#x27;effacement de la zera, semence, d&#x27;Amalek vient le ribuy, accroissement, de la zera d&#x27;Israël) ve-hu al derekh (et ceci est al derekh, sur le chemin de) (Megillah 6a) &quot;Imaleah hé-horavah (je remplirai la désolée)&quot; di-ke-she-harvah zo maleah zo (que lorsque celle-ci fut désolée, celle-là fut remplie), ve-al derekh (Psaumes 75,11) &quot;ve-khôl karnei resha&#x27;im agadea (et toutes les cornes des méchants Je couperai)&quot;, al yedei zeh ve-az &quot;teromamnah karnoth tsadik (par ceci et alors s&#x27;élèveront les cornes du tsadik, le juste)&quot;. (Poked Akarim, sof [fin] siman [סי&#x27;, section] 5, daf 23à, Resisei Lailah, ot 58, d&quot;h [dibour ha-mathil, commençant par] Inyan)</p></div></div><div class="seg"><div class="he" dir="rtl"><p>וְהָיָה בְּהָנִיחַ ה&#x27; אֱלֹהֶיךָ לְךָ מִכָּל אֹיְבֶיךָ וְכוּ&#x27; תִּמְחֶה אֶת זֵכֶר עֲמָלֵק. בֵּאֵר אזמו&quot;ר הַגה&quot;ק זצלה&quot;ה אֲשֶׁר בְּהַפָּסוּק נָקוּד שָׁלֹשׁ מוּנָח, לִרְמֹז בָּזֶה אֲשֶׁר לֹא בְּנָקֵל יְכוֹלִין לְהִנָּצֵל מֵהַטָּעוּת שֶׁל עֲמָלֵק שֶׁמַּטְעֶה תָּמִיד אֶת יִשְׂרָאֵל, רַק אַחַר שֶׁהֵנִיחַ ה&#x27; מִכָּל אוֹיְבֶיךָ מִסָּבִיב אֲזַי תֵּדַע שֶׁתִּמְחֶה אֶת זֵכֶר עֲמָלֵק.(סוד ישרים פ&#x27; זכור אות כ&quot;ב)</p></div><div class="fr"><p>&quot;Ve-hayah be-haniah ה&#x27; Elokeikha lekha mi-kol oyveikha vekhu&#x27; timheh et zekher Amalek (et il sera, lorsque ה&#x27; ton Elokim te donnera du repos de tous tes ennemis, etc., tu effaceras le souvenir d&#x27;Amalek).&quot; (Deutéronome 25,19). Béer (expliqua) Azmo&quot;r (אזמו&quot;ר, adoni zekeni mori ve-rabbi : mon seigneur, mon aïeul, mon maître et mon rabbin) ha-gah&quot;k (הגה&quot;ק, ha-gaon ha-kadoch : le saint Gaon) ztslh&quot;h (זצלה&quot;ה, zekher tsadik livrakha lehaye haolam haba : que le souvenir du juste soit pour bénédiction, pour la vie du monde à venir) acher ba-pasuk nakud shalosh munah (que dans le verset sont pointes trois munah, taam &#x27;repose&#x27;) lirmoz ba-zeh (pour faire allusion en ceci) acher lo be-nakel yekholin lehinatsel me-ha-ta&#x27;ut chel Amalek (que ce n&#x27;est pas aisément que l&#x27;on peut être sauvé de l&#x27;erreur d&#x27;Amalek) she-mât&#x27;eh tamid et Yisrael (qui égaré toujours Israël), rak ahar she-heniah ה&#x27; mi-kol oyveikha mi-saviv (seulement après que ה&#x27; à donné du repos de tous tes ennemis d&#x27;alentour) azai teda she-timheh et zekher Amalek (alors tu sauras que tu effaceras le souvenir d&#x27;Amalek).</p><p>(Sod Yesharim, p&#x27; [parachat] Zakhor, ot 22)</p></div></div>
+<nav class="dafnav"><a href="225.html">&lsaquo; Anthologie - Devarim - Shoftim</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="227.html">Anthologie - Devarim - Ki Tavo &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schémas</button><button onclick="pedaAll(false)">✕</button><a class="ask" href="https://notebooklm.google.com/notebook/6dbbbab4-6cd3-43b6-8f58-ee9e5f0ab696" target="_blank" rel="noopener" title="Poser une question sur ces textes (NotebookLM)">💬</a></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+<script src="/annot.js" defer></script><div id="signaler-err" style="text-align:center;margin:34px 0 10px;padding-top:14px;border-top:1px solid #e7e2d8">
+<a id="signaler-lien" href="#" style="display:inline-block;color:#78716c;text-decoration:none;font-size:.82rem;border:1px solid #e7e2d8;background:#fffdf8;border-radius:999px;padding:5px 14px">&#9993; Signaler une erreur de traduction</a>
+</div>
+<script>(function(){var a=document.getElementById('signaler-lien');if(!a)return;
+var t=(document.title||'').replace(/\s+/g,' ').trim();
+var sel='';try{sel=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
+function maj(){var s=''; try{s=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
+a.href='mailto:chiourimsba@gmail.com'
++'?subject='+encodeURIComponent('Correction — '+t)
++'&body='+encodeURIComponent('Page : '+location.href+'\n'+(s?('\nPassage sélectionné :\n« '+s+' »\n'):'\nPassage concerné :\n\n')+'\nCorrection proposée :\n\n\n— envoyé depuis '+location.hostname);}
+maj();document.addEventListener('selectionchange',maj);a.addEventListener('mouseenter',maj);})();</script>
+<script src="https://chiourimsba.vercel.app/chat.js" defer></script>
+</body></html>

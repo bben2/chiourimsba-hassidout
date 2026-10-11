@@ -1,0 +1,71 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mei HaShiloach — Anthologie - Talmud - Yevamot</title><style>
+:root{--bg:#faf8f3;--ink:#1c1917;--muted:#78716c;--line:#e7e2d8;--paper:#fffdf8;--gold:#b8860b;--navy:#1e3a5f}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;line-height:1.6}
+.wrap{max-width:900px;margin:0 auto;padding:22px 18px 90px}
+header.top{text-align:center;padding:16px 0;border-bottom:2px solid var(--line);margin-bottom:14px}
+header.top .he{font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.5rem;color:var(--navy);direction:rtl}
+header.top h1{margin:.15em 0 .1em;font-size:1.4rem}
+header.top .sub{color:var(--muted);font-size:.9rem}
+details.peda-svg{margin:16px 0;border:1px solid var(--line);border-radius:12px;background:#fbfaf7;overflow:hidden}
+details.peda-svg>summary{cursor:pointer;list-style:none;padding:9px 13px;font-size:.85rem;font-weight:700;color:var(--navy);display:flex;align-items:center;gap:8px;user-select:none}
+details.peda-svg>summary::-webkit-details-marker{display:none}
+details.peda-svg>summary::before{content:"▸";font-size:.8rem;transition:transform .15s;color:var(--gold)}
+details.peda-svg[open]>summary::before{transform:rotate(90deg)}
+details.peda-svg>summary em{font-style:normal;font-weight:400;color:#57534e;font-size:.82rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.peda-svg .peda-body{padding:2px 14px 14px;text-align:center}
+details.peda-svg .peda-body svg{max-width:100%;height:auto}
+details.chiour-summary{margin:16px 0;border:1px solid #decf9d;border-left:4px solid var(--gold);border-radius:10px;background:#fffaf0;overflow:hidden}
+details.chiour-summary>summary{cursor:pointer;list-style:none;padding:10px 14px;font-size:.9rem;font-weight:700;color:var(--navy);user-select:none}
+details.chiour-summary>summary::-webkit-details-marker{display:none}
+details.chiour-summary>summary::before{content:"+";display:inline-block;width:18px;color:var(--gold);font-size:1.05rem}
+details.chiour-summary[open]>summary::before{content:"-"}
+details.chiour-summary p{margin:0;padding:0 14px 13px;color:#44403c;font-size:.93rem;line-height:1.65}
+.peda-ctl{position:fixed;bottom:16px;left:50%;transform:translateX(-50%);background:var(--navy);border-radius:999px;padding:6px;display:flex;gap:4px;box-shadow:0 6px 24px rgba(0,0,0,.25);z-index:50}
+.peda-ctl button,.peda-ctl a{border:none;background:transparent;color:#e7e2d8;font-size:.82rem;padding:8px 14px;border-radius:999px;cursor:pointer;font-weight:600;text-decoration:none;white-space:nowrap}
+.peda-ctl button:hover,.peda-ctl a:hover{background:#33557a;color:#fff}
+.peda-ctl a.ask{opacity:.85}
+.seg{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:0 0 12px;display:flex;flex-direction:row-reverse;gap:26px;align-items:flex-start}
+.seg .he{flex:1 1 0;min-width:0;font-family:"Frank Ruhl Libre","Times New Roman",serif;font-size:1.3rem;line-height:1.9;text-align:right;direction:rtl;color:#292524}
+.seg .he p{margin:0 0 .5em}.seg .he p:last-child{margin-bottom:0}
+.seg .fr{flex:1 1 0;min-width:0;font-size:1.02rem;color:#292524}
+.seg .fr p{margin:0 0 .6em}.seg .fr p:last-child{margin-bottom:0}
+@media (max-width:720px){.seg{flex-direction:column;gap:10px}.seg .he{border-bottom:1px dashed var(--line);padding-bottom:10px}}
+.seg.h .he{color:var(--navy);font-weight:700}
+.seg.h .fr{font-weight:700;color:var(--navy);border-top:none;padding-top:0;margin-top:4px}
+.dafnav{display:flex;gap:8px;justify-content:space-between;align-items:center;margin:14px 0;flex-wrap:wrap}
+.dafnav a,.dafnav span{ text-decoration:none;border-radius:999px;padding:8px 15px;font-size:.9rem;font-weight:600;white-space:nowrap;border:1px solid var(--line);background:var(--paper);color:var(--ink)}
+.dafnav a:hover{background:var(--ink);color:#fff}
+.dafnav .home{background:var(--ink);color:#fff}
+.dafnav .off{opacity:.28;pointer-events:none}
+.toc{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:12px}
+a.card{display:block;text-decoration:none;color:inherit;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:14px 16px;transition:.12s}
+a.card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(28,25,23,.10);border-color:#d6c9b0}
+a.card .n{display:inline-block;background:var(--navy);color:#fff;font-weight:700;font-size:.8rem;padding:2px 10px;border-radius:999px;margin-bottom:6px}
+a.card .inc{color:#57534e;font-size:.86rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.stats{display:inline-block;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 15px;font-size:.85rem;color:#57534e;margin-top:8px}
+</style></head><body><div class="wrap">
+<header class="top"><div class="he">מי השלוח</div><h1>Mei HaShiloach — Anthologie - Talmud - Yevamot</h1>
+<div class="sub">Rabbi Mordechai Yosef Leiner d Izbica</div></header>
+<nav class="dafnav"><a href="262.html">&lsaquo; Anthologie - Talmud - Haguiga</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="264.html">Anthologie - Talmud - Ketoubot &rsaquo;</a></nav>
+<details class="chiour-summary"><summary>En bref - de quoi parle ce chiour ?</summary><p>Afilu sfinot ha-baot mi-Galya le-Aspamya ein mitbarkhot ella bi-shvil Yisrael (même les sfinot, navires, qui viennent de Galya, Gaule, à Aspamya, Espagne, ne sont mitbarkhot, bénies, que bi-shvil, à cause de, Israël). Ve-shamati de-maamar Hazal (חז&quot;ל, hakhameinu zikhronam livrakha : nos Sages, que leur souvenir soit pour bénédiction) zeh maskim li-dvarai (et j&#x27;ai entendu que ce maamar, dictum, de Hazal maskim, s&#x27;accorde, à...</p></details>
+<div class="seg"><div class="he" dir="rtl"><p>אֲפִילּוּ סְפִינוֹת הַבָּאוֹת מִגַּלְיָא לְאַסְפַּמְיָא אֵין מִתְבָּרְכוֹת אֶלָּא בִּשְׁבִיל יִשְׂרָאֵל. וְשָׁמַעְתִּי דְּמַאֲמַר חֲזַ&quot;ל זֶה מַסְכִּים לִדְבָרַי כִּי כַּאֲשֶׁר אֶחָד מִיִּשְׂרָאֵל מְחַדֵּשׁ אֵיזֶה דָּבָר מֵחָכְמַת הַתּוֹרָה שֶׁהִיא חָכְמַת הַשי&quot;ת חָכְמָה זוֹ מִתְפַּשֶּׁטֶת בְּכָל עָלְמִין וְגַם בָּעוֹלָם הַגַּשְׁמִי מִתְחַדֵּשׁ כְּנֶגְדָּהּ אֵיזֶה דְּבַר חָכְמָה שֶׁבְּעִנְיְנֵי עוֹלָם הַזֶּה, הַנִּמְשָׁךְ עַל יְדֵי חָכְמָה זוֹ שֶׁנִּתְחַדְּשָׁה בְּתוֹרַת ה&#x27; וַעֲבוֹדָתוֹ יִתְבָּרַךְ, וְיוּכְלוּ לְקוֹלְטָהּ חַכְמֵי אוּמּוֹת הָעוֹלָם שֶׁבְּאוֹתוֹ הַדּוֹר וּלְחַדְּשָׁהּ וְיַחְשׁוֹב הָרוֹאֶה שֶׁהֵם חִידְּשׁוּהָ.</p><p>וְכֵן הִגִּיד אֶחָד קָדוֹשׁ כִּי גַּם מִינֵי אֲרוּגוֹת בְּגָדִים שׁוֹנִים הַמִּתְחַדְּשִׁים מִדֵּי יוֹם, בָּא עַל יְדֵי מַה שֶּׁמְּחַדֵּשׁ אֵיזֶה נֶפֶשׁ מִיִּשְׂרָאֵל אֵיזֶה דָּבָר בַּעֲבוֹדַת ה&#x27;.(לקוטי מאמרים צ&quot;ו.)</p></div><div class="fr"><p>Afilu sfinot ha-baot mi-Galya le-Aspamya ein mitbarkhot ella bi-shvil Yisrael (même les sfinot, navires, qui viennent de Galya, Gaule, à Aspamya, Espagne, ne sont mitbarkhot, bénies, que bi-shvil, à cause de, Israël). Ve-shamati de-maamar Hazal (חז&quot;ל, hakhameinu zikhronam livrakha : nos Sages, que leur souvenir soit pour bénédiction) zeh maskim li-dvarai (et j&#x27;ai entendu que ce maamar, dictum, de Hazal maskim, s&#x27;accorde, à mes paroles) ki ka&#x27;asher ehad mi-Yisrael mehadesh eizeh davar me-hokhmat ha-Torah she-hi hokhmat Hachem Yitbarakh (השי&quot;ת, Hachem, qu&#x27;Il soit béni) (car lorsqu&#x27;un d&#x27;Israël mehadesh, renouvelle, quelque davar, chose, de hokhmat ha-Torah, sagesse de la Torah, qui est hokhmat Hachem Yitbarakh) hokhmah zo mitpashetet be-khôl almin (cette hokhmah, sagesse, mitpashetet, se déploie, be-khôl almin, dans tous les mondes) ve-gam ba-olam ha-gashmi mithadesh kenegdah eizeh devar hokhmah she-be-inyenei olam ha-zeh (et aussi dans olam ha-gashmi, le monde corporel, mithadesh, se renouvelle, kenegdah, en regard d&#x27;elle, quelque devar hokhmah, chose de sagesse, dans les inyenei, affaires, de olam ha-zeh, ce monde-ci), ha-nimshakh al yedei hokhmah zo she-nithadshah be-Torat ה&#x27; va-avodato yitbarakh (qui est nimshakh, tirée, par cette hokhmah qui s&#x27;est nithadshah, renouvelée, dans la Torah de ה&#x27; et Son avodah, service, qu&#x27;Il soit béni), ve-yukhlu liklotah hakhmei umot ha-olam she-be-oto ha-dor u-lehadshah ve-yahshov ha-roeh she-hem hidsheuha (et ils pourront liklotah, l&#x27;absorber, les hakhmei umot ha-olam, sages des nations du monde, de cette génération-la, et la lehadshah, renouveler, et le roeh, celui qui voit, pensera qu&#x27;eux l&#x27;ont hidsheuha, renouvelée).</p><p>Ve-khen higid ehad kadoch ki gam minei arugot begadim shonim ha-mithadshim midei yom (et ainsi a dit ehad kadoch, un certain saint : que même minei arugot, sortes de tissages, de begadim shonim, vêtements différents, qui se mithadshim, se renouvellent, midei yom, chaque jour), ba al yedei mah she-mehadesh eizeh nefech mi-Yisrael eizeh davar ba-avodat ה&#x27; (vient par ce qu&#x27;une certaine nefech, âme, d&#x27;Israël mehadesh quelque davar dans avodat ה&#x27;, le service de ה&#x27;). (Likutei Maamarim ts&quot;v [צ&quot;ו, 96])</p></div></div>
+<nav class="dafnav"><a href="262.html">&lsaquo; Anthologie - Talmud - Haguiga</a><a class="home" href="index.html">📖 Sommaire</a><a href="../index.html">🏠 Accueil</a><a href="264.html">Anthologie - Talmud - Ketoubot &rsaquo;</a></nav>
+</div>
+<div class="peda-ctl"><button onclick="pedaAll(true)">🖼️ Schémas</button><button onclick="pedaAll(false)">✕</button><a class="ask" href="https://notebooklm.google.com/notebook/6dbbbab4-6cd3-43b6-8f58-ee9e5f0ab696" target="_blank" rel="noopener" title="Poser une question sur ces textes (NotebookLM)">💬</a></div>
+<script>function pedaAll(o){document.querySelectorAll('details.peda-svg').forEach(function(e){e.open=o})}</script>
+<script src="/annot.js" defer></script><div id="signaler-err" style="text-align:center;margin:34px 0 10px;padding-top:14px;border-top:1px solid #e7e2d8">
+<a id="signaler-lien" href="#" style="display:inline-block;color:#78716c;text-decoration:none;font-size:.82rem;border:1px solid #e7e2d8;background:#fffdf8;border-radius:999px;padding:5px 14px">&#9993; Signaler une erreur de traduction</a>
+</div>
+<script>(function(){var a=document.getElementById('signaler-lien');if(!a)return;
+var t=(document.title||'').replace(/\s+/g,' ').trim();
+var sel='';try{sel=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
+function maj(){var s=''; try{s=(window.getSelection?String(window.getSelection()):'').trim().slice(0,400);}catch(e){}
+a.href='mailto:chiourimsba@gmail.com'
++'?subject='+encodeURIComponent('Correction — '+t)
++'&body='+encodeURIComponent('Page : '+location.href+'\n'+(s?('\nPassage sélectionné :\n« '+s+' »\n'):'\nPassage concerné :\n\n')+'\nCorrection proposée :\n\n\n— envoyé depuis '+location.hostname);}
+maj();document.addEventListener('selectionchange',maj);a.addEventListener('mouseenter',maj);})();</script>
+<script src="https://chiourimsba.vercel.app/chat.js" defer></script>
+</body></html>
